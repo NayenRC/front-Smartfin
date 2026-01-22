@@ -1,5 +1,5 @@
 import { createClient } from '@supabase/supabase-js';
-import { CollectedData } from '../types';
+import { CollectedData } from '../../types';
 
 const supabaseUrl = process.env.SUPABASE_URL || 'https://xyzcompany.supabase.co';
 const supabaseKey = process.env.SUPABASE_ANON_KEY || 'public-anon-key';

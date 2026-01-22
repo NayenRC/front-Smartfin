@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { Send, Bot, CheckCircle2 } from 'lucide-react';
-import { ChatMessage, CollectedData } from '../types';
+import { ChatMessage, CollectedData } from '../../types';
 
 interface ChatInterfaceProps {
   onComplete: (data: CollectedData) => void;

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from 'recharts';
 import { Send, TrendingUp, CheckCircle, Wallet, ArrowUpRight, PlusCircle, MessageSquare, LogOut } from 'lucide-react';
-import { CollectedData, UserProfile } from '../types';
+import { CollectedData, UserProfile } from '../../types';
 
 interface DashboardProps {
   data: CollectedData;
