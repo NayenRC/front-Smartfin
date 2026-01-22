@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { AnimatePresence } from 'framer-motion';
-import Landing from './src/components/Landing';
-import ChatInterface from './src/components/ChatInterface';
-import AuthForm from './src/components/AuthForm';
-import Dashboard from './src/components/Dashboard';
+import Landing from './components/Landing';
+import ChatInterface from './components/ChatInterface';
+import AuthForm from './components/AuthForm';
+import Dashboard from './components/Dashboard';
 
-import { AppView, CollectedData, UserProfile } from './types';
-import { saveOnboardingData } from './src/services/supabaseClient';
+import { AppView, CollectedData, UserProfile } from '../types';
+import { saveOnboardingData } from './services/supabaseClient';
 
 const App: React.FC = () => {
   const [currentView, setCurrentView] = useState<AppView>(AppView.LANDING);
